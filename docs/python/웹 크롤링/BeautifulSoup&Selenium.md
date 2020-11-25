@@ -125,7 +125,7 @@ print(response.text)
 | `soup.select_one('.sister')`                           | 태그 클래스 `class="sister">` 으로 찾기                             |
 | `soup.select_one('#link3')`                            | 태그 아이디 `id="link3"` 으로 찾기                                  |
 | `soup.select_one('a.sister#link3'`                     | 태그 이름, 클래스, 아이디 지정하여 찾기                             |
-| `soup.select_onde('a > b > c')`                        | `<a>` 태그 밑의 `<b>` 태그 밑의 `<c>` 태그 가져오기                 |
+| `soup.select_one('a > b > c')`                         | `<a>` 태그 밑의 `<b>` 태그 밑의 `<c>` 태그 가져오기                 |
 <br>
 <br>
 
